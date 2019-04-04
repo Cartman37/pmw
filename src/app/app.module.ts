@@ -6,6 +6,7 @@ import { ItemsComponent } from './items/items.component';
 import { PropertiesComponent } from './properties/properties.component';
 import { ClientsComponent } from './clients/clients.component';
 import { PackageComponent } from './package/package.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { PackageComponent } from './package/package.component';
     ItemsComponent,
     PropertiesComponent,
     ClientsComponent,
-    PackageComponent
+    PackageComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule
