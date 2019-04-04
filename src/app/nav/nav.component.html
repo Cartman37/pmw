@@ -1,0 +1,30 @@
+<!--<div class="nav navbar d-flex justify-content-start bg-dark navbar-dark m-4">
+  <a routerLink="/home" class="navbar-brand">{{title}}</a>
+  <div class="nav-item">
+    <a routerLink="/home" class="nav-link active">Home</a>
+  </div>
+  <div class="nav-item">
+    <a routerLink="/items" class="nav-link">Items</a>
+  </div>
+  <div class="nav-item">
+    <a routerLink="/properties" class="nav-link">Properties</a>
+  </div>
+  <div class="nav-item">
+    <a routerLink="/clients" class="nav-link">Clients</a>
+  </div>
+  <div class="nav-item">
+    <a routerLink="/package" class="nav-link">Package</a>
+  </div>
+</div>-->
+
+<div style="text-align:center">
+  <h1>{{title}}</h1>
+  <img width="300" alt="" src="">
+  <mat-tab-group>
+    <mat-tab label="Home"><app-root></app-root></mat-tab>
+    <mat-tab label="Items"><app-items></app-items></mat-tab>
+    <mat-tab label="Package"><app-package></app-package></mat-tab>
+    <mat-tab label="Properties"><app-package></app-package></mat-tab>
+    <mat-tab label="Clients"><app-clients></app-clients></mat-tab>
+  </mat-tab-group>
+</div>
